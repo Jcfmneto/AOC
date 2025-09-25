@@ -8,6 +8,7 @@ import (
 
 func main() {
 	fileContent := string(readFile("input.txt"))
+	fmt.Println(fileContent)
 
 	lines := strings.Split(fileContent, "\n")
 	fmt.Println(returnPoints(lines))
